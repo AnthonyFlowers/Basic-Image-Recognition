@@ -11,30 +11,31 @@ Running the softmax.py module will run the main program which iterates over the 
 Example:
 
 `python softmax.py`
-
-* Step     0: training accuracy 0.45
-* Step   100: training accuracy 0.25
-* Step   200: training accuracy 0.29
-* Step   300: training accuracy 0.42
-* Step   400: training accuracy 0.49
-* Step   500: training accuracy 0.31
-* Step   600: training accuracy 0.52
-* Step   700: training accuracy 0.34
-* Step   800: training accuracy 0.38
-* Step   900: training accuracy 0.41
-* Test accuracy 0.2586
-* Total time:  9.68s
-* cat: Correct Guess
-* ship: Incorrect Guess
-* ship: Incorrect Guess
-* plane: Incorrect Guess
-* frog: Incorrect Guess
-* frog: Incorrect Guess
-* car: Incorrect Guess
-* frog: Incorrect Guess
-* cat: Incorrect Guess
-* car: Correct Guess
-* Amount guessed correctly: 2
+```
+Step     0: training accuracy 0.45
+Step   100: training accuracy 0.25
+Step   200: training accuracy 0.29
+Step   300: training accuracy 0.42
+Step   400: training accuracy 0.49
+Step   500: training accuracy 0.31
+Step   600: training accuracy 0.52
+Step   700: training accuracy 0.34
+Step   800: training accuracy 0.38
+Step   900: training accuracy 0.41
+Test accuracy 0.2586
+Total time:  9.68s
+cat: Correct Guess
+ship: Incorrect Guess
+ship: Incorrect Guess
+plane: Incorrect Guess
+frog: Incorrect Guess
+frog: Incorrect Guess
+car: Incorrect Guess
+frog: Incorrect Guess
+cat: Incorrect Guess
+car: Correct Guess
+Amount guessed correctly: 2
+```
 
 
 ## Motivation
