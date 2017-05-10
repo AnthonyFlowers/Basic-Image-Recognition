@@ -1,18 +1,17 @@
-# Basic-Image-Recognition
+# Basic Image Recognition
 
 ## Synopsis
 
-This project is a demonstration using TensorFlow (https://www.tensorflow.org/) and the CIFAR-10 image data set (http://www.cs.toronto.edu/~kriz/cifar.html) to train a neural network to classify images.
+This project is a demonstration using [TensorFlow](https://www.tensorflow.org/) (https://www.tensorflow.org/) and the CIFAR-10 image [data set](http://www.cs.toronto.edu/~kriz/cifar.html) (http://www.cs.toronto.edu/~kriz/cifar.html) to train a neural network to classify images.
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 Running the softmax.py module will run the main program which iterates over the dataset randomly to learn/improve correct classification probability.
 
-Ex:
-'''
+Example:
+
 python softmax.py
-'''
+
 Step     0: training accuracy 0.45
 Step   100: training accuracy 0.25
 Step   200: training accuracy 0.29
@@ -46,16 +45,20 @@ I chose to do this project to get my foot in the door for machine learning and n
 
 This project includes a requirements.txt file to install the dependencies.
 
-The dataset I used is from [here](http://www.cs.toronto.edu/~kriz/cifar.html)
+The dataset I used is from [here](http://www.cs.toronto.edu/~kriz/cifar.html).
+After downloading and extracting the data set the cifar-10-batches-py folder can be moved to the projects main directory.
+
 [Learning Multiple Layers of Features from Tiny Images](http://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf), Alex Krizhevsky, 2009.
 
 ## API Reference
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+The TensorFlow documentation can be found here: https://www.tensorflow.org/api_docs/python/
+A very helpful tutorial that I found explained how each Tensor or TensorFlow method worked can be found here: http://www.wolfib.com/Image-Recognition-Intro-Part-1/
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
+There are no tests included with this project.
 
 ## Contributors
 
