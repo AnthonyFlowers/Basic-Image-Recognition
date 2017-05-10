@@ -52,6 +52,7 @@ This project includes a requirements.txt file to install the dependencies.
 This project also requires the [Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=53587) on Windows.
 
 The dataset I used is from [Here](http://www.cs.toronto.edu/~kriz/cifar.html).
+
 After downloading and extracting the data set the cifar-10-batches-py folder can be moved to the projects main directory.
 
 [Learning Multiple Layers of Features from Tiny Images](http://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf), Alex Krizhevsky, 2009.
@@ -66,6 +67,7 @@ A very helpful tutorial that I found explained how each Tensor or TensorFlow met
 ## Tests
 
 There are no tests included with this project.
+
 Some tests that could be written include:
 * Testing how the program weights different classes, say compare the weights on the dog class compared to the cat class because they may share similar weights on certain pixel areas.
 * Use TensorBoard to show the weights of pixels value per class.
@@ -73,7 +75,9 @@ Some tests that could be written include:
 ## Contributors
 
 Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+
 If you would like to help work on this project or find any bugs/changes that you could improve on, do send a message on [Twitter](https://twitter.com/alteiar).
+
 
 ## License
 
