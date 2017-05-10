@@ -87,3 +87,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Models folder
+models/
+
+# Training data folder
+cifar-10-batches-py/
