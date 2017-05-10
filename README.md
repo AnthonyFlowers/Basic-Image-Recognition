@@ -40,9 +40,11 @@ Amount guessed correctly: 2
 
 ## Motivation
 
-I chose to do this project to get my foot in the door for machine learning and neural networks in general.
+I chose to do this project to get my foot in the door with machine learning and neural networks in general. I focused on understanding the basic fundamentals of machine learning through neural networks.
 
 ## Installation
+
+For this project I used a virtual environment that uses Python 3.5.2 and then install each dependency.
 
 [Ubuntu Install](https://www.tensorflow.org/install/install_linux)
 [Mac OS X Install](https://www.tensorflow.org/install/install_mac)
@@ -50,7 +52,7 @@ I chose to do this project to get my foot in the door for machine learning and n
 
 This project includes a requirements.txt file to install the dependencies.
 
-This project also requires the [Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=53587) on Windows.
+This project also requires the [Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=53587) on Windows (and probably other platforms too).
 
 The dataset I used is from [Here](http://www.cs.toronto.edu/~kriz/cifar.html).
 
@@ -59,8 +61,6 @@ After downloading and extracting the data set the cifar-10-batches-py folder can
 [Learning Multiple Layers of Features from Tiny Images](http://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf), Alex Krizhevsky, 2009.
 
 ## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
 
 The TensorFlow documentation can be found [Here](https://www.tensorflow.org/api_docs/python/): https://www.tensorflow.org/api_docs/python/
 A very helpful tutorial that I found explained how each Tensor or TensorFlow method worked can be found [Here](http://www.wolfib.com/Image-Recognition-Intro-Part-1/): http://www.wolfib.com/Image-Recognition-Intro-Part-1/
