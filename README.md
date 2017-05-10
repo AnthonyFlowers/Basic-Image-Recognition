@@ -1,19 +1,53 @@
 # Basic-Image-Recognition
+
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+This project is a demonstration using TensorFlow (https://www.tensorflow.org/) and the CIFAR-10 image data set (http://www.cs.toronto.edu/~kriz/cifar.html) to train a neural network to classify images.
 
 ## Code Example
 
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+Running the softmax.py module will run the main program which iterates over the dataset randomly to learn/improve correct classification probability.
+
+Ex:
+'''
+python softmax.py
+'''
+Step     0: training accuracy 0.45
+Step   100: training accuracy 0.25
+Step   200: training accuracy 0.29
+Step   300: training accuracy 0.42
+Step   400: training accuracy 0.49
+Step   500: training accuracy 0.31
+Step   600: training accuracy 0.52
+Step   700: training accuracy 0.34
+Step   800: training accuracy 0.38
+Step   900: training accuracy 0.41
+Test accuracy 0.2586
+Total time:  9.68s
+cat: Correct Guess
+ship: Incorrect Guess
+ship: Incorrect Guess
+plane: Incorrect Guess
+frog: Incorrect Guess
+frog: Incorrect Guess
+car: Incorrect Guess
+frog: Incorrect Guess
+cat: Incorrect Guess
+car: Correct Guess
+Amount guessed correctly: 2
+
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+I chose to do this project to get my foot in the door for machine learning and neural networks in general.
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+This project includes a requirements.txt file to install the dependencies.
+
+The dataset I used is from [here](http://www.cs.toronto.edu/~kriz/cifar.html)
+[Learning Multiple Layers of Features from Tiny Images](http://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf), Alex Krizhevsky, 2009.
 
 ## API Reference
 
