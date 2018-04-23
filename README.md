@@ -73,12 +73,6 @@ Some tests that could be written include:
 * Testing how the program weights different classes, say compare the weights on the dog class compared to the cat class because they may share similar weights on certain pixel areas.
 * Use TensorBoard to show the weights of pixels value per class.
 
-## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-If you would like to help work on this project or find any bugs/changes that you could improve on, do send a message on [Twitter](https://twitter.com/alteiar).
-
 
 ## License
 
